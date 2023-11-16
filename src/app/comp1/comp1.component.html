@@ -1,0 +1,15 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <p>component 1</p>
+      <span>User Name: <span> {{userName}}</span></span>
+      <span>Behaviour subject Name: <span><b><i> {{ BehaviourUserName }}</i></b></span></span>
+      <div class="col-8">
+        <input type="text" placeholder="Update Name" class="form-control" #uname>
+      </div>
+      <div class="col-4">
+        <button type="button" class="btn btn-warning" (click)="updateUserName(uname)">update</button>
+      </div>
+    </div>
+  </div>
+</section>
